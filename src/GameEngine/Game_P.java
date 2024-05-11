@@ -37,8 +37,15 @@ public class Game_P {
         String tiempoNPCP = String.format("%.2f", tiempoNPC);
         System.out.println("TiempoNPC: " + tiempoNPC);
         //Create the main game window
-        JFrame ventana = new JFrame("Game");
+        JFrame ventana = new JFrame("Rocket Racing");
         ventana.setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE);
+        ventana.addWindowListener(new WindowAdapter() {
+            @Override
+            public void windowClosing(WindowEvent e) {
+                JFrame pantalla = new JFrame("Menu");
+                generarInicio(pantalla);
+            }
+        });
         //Create an instance of RectanguloLlenadoInfinito
         RectanguloLlenadoInfinito rect1 = new RectanguloLlenadoInfinito(500);
         //Create diferent capes for inserting diferentes panels

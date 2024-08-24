@@ -1,6 +1,6 @@
 # TrabajoTPA
 
-## I did this proyect with a couple of friends for programming at university, its so far the best proyect we've done (Javadocs are in the project but not created)
+## I did this project with a couple of friends for programming at university, its so far the best project we've done (Javadocs are in the project but not created)
 ## The other repo of this project contains an older version of the project
 // Link del esquema UML // 
 

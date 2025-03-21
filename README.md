@@ -21,3 +21,8 @@ https://drive.google.com/drive/folders/1hqdULG4xbO8fP4bD3x6CLkaqTpw2K2CC?usp=sha
 [![Car-Moving-Frame-5.png](https://i.postimg.cc/6pXLzxcj/Car-Moving-Frame-5.png)](https://postimg.cc/8jZ6P3qM)
 
 [![Frame-Finish-With-Car.png](https://i.postimg.cc/MKRmyp7f/Frame-Finish-With-Car.png)](https://postimg.cc/mtL94R6T)
+
+Depencencies:
+
+Openjdk-21
+Json.jar
